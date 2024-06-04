@@ -24,7 +24,7 @@
 
 .Nav {
     display: flex;
-    width: 100%;
+
     align-items: center;
     padding-right: 1rem;
     justify-content: flex-end;
@@ -107,4 +107,17 @@
         flex-direction: column;
     }
 
+}
+
+@media only screen and (max-width: 765px) and (min-width: 600px)  {
+    .Nav {
+        padding-right: 0rem;
+        margin-right: 0rem;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .Nav {
+        width: 100%;
+    }
 }
