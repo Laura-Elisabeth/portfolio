@@ -15,13 +15,13 @@ const customStyles = {
     left: '50%',
     right: 'auto',
     bottom: 'auto',
-    margin: '1rem',
+    margin: 'auto',
     transform: 'translate(-50%, -50%)',
-    backgroundColor: 'rgb(242, 206, 206, 0.6)',
+    backgroundColor: 'rgb(242, 206, 206, 0.8)',
     border: 'none',
     borderRadius: '20px',
-    
     height: '60%',
+    width: '80%',
   },
 };
 
@@ -408,7 +408,7 @@ function Home() {
         <div className={styles.contact} id="contact">
           <h2>Me contacter</h2>
           <p>
-            Adresse e-mail: dosreis.laura@proton.me
+          <a href="mailto:dosreis.laura@proton.me?body=My custom mail body">N'hésitez pas à me contacter par mail !</a>
           </p>
         </div>
 
