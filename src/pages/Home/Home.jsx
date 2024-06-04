@@ -7,7 +7,6 @@ import Booki from '../../images/bookiscreen.png';
 import ArchieWebos from '../../images/sophie1.png';
 import Kasa from '../../images/kasa.png';
 import MonVieuxGrimoire from "../../images/vieuxgrimoire.png";
-import arrow from '../../images/arrow.jpeg';
 import gitLogo from '../../images/gitlogo.png'
 
 const customStyles = {
@@ -16,12 +15,12 @@ const customStyles = {
     left: '50%',
     right: 'auto',
     bottom: 'auto',
-    marginRight: '-50%',
+    margin: '1rem',
     transform: 'translate(-50%, -50%)',
     backgroundColor: 'rgb(242, 206, 206, 0.6)',
     border: 'none',
     borderRadius: '20px',
-    width: '90%',
+    
     height: '60%',
   },
 };

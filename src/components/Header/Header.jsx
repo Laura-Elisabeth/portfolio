@@ -1,8 +1,6 @@
 import React from 'react';
-import { NavLink, useNavigate } from 'react-router-dom'
 
 import styles from './Header.module.css';
-import Icon from '../../images/searchIcon.png';
 import Logo from '../../images/Logo.png';
 
 function Header({ user, setUser }) {

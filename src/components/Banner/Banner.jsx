@@ -1,6 +1,4 @@
 import React from 'react';
-import { NavLink, useNavigate } from 'react-router-dom';
-import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 
 import styles from './Banner.module.css';
