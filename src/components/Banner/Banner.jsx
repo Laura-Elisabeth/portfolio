@@ -25,16 +25,10 @@ Modal.setAppElement('#root');
 function Banner({picture}) {
     let subtitle;
     const [modalIsOpen, setIsOpen] = React.useState(false);
-    const [modalIsOpen2, setIsOpen2] = React.useState(false);
-
 
     function openModal() {
         setIsOpen(true);
     }
-
-    function openModal2() {
-        setIsOpen2(true);
-    } 
 
     function afterOpenModal() {
         subtitle.style.color = 'color: rgb(65, 41, 96, 1)';
@@ -42,10 +36,6 @@ function Banner({picture}) {
 
     function closeModal() {
         setIsOpen(false);
-    }
-
-    function closeModal2() {
-        setIsOpen2(false);
     }
 
     return (
