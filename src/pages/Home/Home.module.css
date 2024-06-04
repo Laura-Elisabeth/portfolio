@@ -399,8 +399,8 @@
         }
 
     .projectCard {
-        width: 18rem;
-        height: 13rem;
+        width: 80%;
+        height: 20rem;
         box-shadow: 0px 0px 1px 1px rgb(100, 100, 100, 0.1);
     }
 

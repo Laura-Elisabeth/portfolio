@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    margin: 1rem;
+    margin: 1rem 1rem 2rem 1rem;
     border-radius: 10px;
     text-align: left;
     color: rgb(65, 41, 96, 1)
@@ -20,41 +20,27 @@
 
 .Banner h1 {
     font-family: "Gill Sans", sans-serif;
-    font-size: 10rem;
     font-weight: normal ;
-    text-shadow: 1px 1px 2px grey, 0 0 1.5em grey, 0 0 0.2em white;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .Banner p {
     font-family: "Gill Sans", sans-serif;
-    font-size: 27px;
+    font-size: 22px;
     margin: 2px;
-    text-shadow: 1px 1px 1px wheat, 0 0 1em grey, 0 0 0.2em white;
-}
-
-.ProfilePicture {
-    display: none;
-    width: 15rem;
-    aspect-ratio: 3/4;
-    border-radius: 10px;
-    margin: 2rem;
 }
 
 .DomaineDiv {
     display: flex; 
     flex-direction: row; 
-    justify-content: space-between;
+    justify-content: center;
     background: none;
 }
-
 
 .Domaine {
     border: none; 
     cursor: pointer; 
     box-shadow: none;
-    width: 50%;
-    height: 9rem;
     background: none;
     margin: 0;
     padding: 0;
@@ -66,7 +52,8 @@
     width: 100%;
     height: 100%;
     background-color: rgb(245,209,16, 0.8);
-    box-shadow: 4px -4px 4px 2px rgb(245,209,16, 0.4);
+    box-shadow: 2px -2px 2px 2px rgb(245,209,16, 0.4);
+    margin: 1rem;
 }
 
 .DevButton:hover {
@@ -74,31 +61,10 @@
 }
 
 .DevButton p {
-    font-size: 25px;    
+    font-size: 20px;    
     color: black;
-    font-weight: bold;
-    padding-top: 3rem;
-}
-
-.SysButton {
-    display: none;
-    font-size: 25px;    
-    border-radius : 10px;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(209, 216, 200, 0.8);
-    box-shadow: 8px -8px 8px 5px rgba(209,216,200, 0.4);
-}
-
-.SysButton:hover {
-    border: 2px solid rgba(209, 216, 200, 0.8);
-}
-
-.SysButton p {
-    font-size: 25px;    
-    color: black;
-    font-weight: bold;
-    padding: 2.5rem;
+    font-weight: 500;
+    padding-top: 2rem;
 }
 
 .modalAll {

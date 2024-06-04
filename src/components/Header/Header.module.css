@@ -26,7 +26,7 @@
     display: flex;
     width: 100%;
     align-items: center;
-    padding-right: 0;
+    padding-right: 1rem;
     justify-content: flex-end;
 }
 
@@ -99,6 +99,7 @@
  
     .Nav {
         justify-content: center;
+        padding-right: 0rem;
     }
     
     .Header ul li {
